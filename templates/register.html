@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create an account with us</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/static/download.png">
 </head>
 <body>
     <div>
@@ -17,13 +19,13 @@
                 <input id="username" type="text">Please enter your desired username</input>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="example@email.com">
+                <input type="email" id="email" placeholder="example@email.com" required>
 
                 <label for="password">Password</label>
-                <input type="password" id="password">
+                <input type="password" id="password" required>
 
                 <label for="confirm"> Confrim Password:</label>
-                <input type="password" id="confirm">
+                <input type="password" id="confirm" required>
 
                 <input type="submit" value="Create Account">
             </form>
