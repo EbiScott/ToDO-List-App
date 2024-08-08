@@ -6,16 +6,28 @@
     <title>Create an account with us</title>
 </head>
 <body>
-    <h2>Create your account</h2>
-    <p>Create an account so you can effectively manage and access your ToDo lists</p>
-    <form action="login" method="post">
-        <label for="username">Username:</label>
-        <input name="username" type="text">Please enter your desired username</input>
+    <div>
+        <div>
+            <h2>Create your account</h2>
+            <p>Create an account so you can effectively manage and access your ToDo lists</p>
+        </div>
+        <div>
+            <form action="register" method="post">
+                <label for="username">Username:</label>
+                <input id="username" type="text">Please enter your desired username</input>
 
-        <label for="email">Email:</label>
-        <input type="email">Type in your email</input>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@email.com">
 
-        <label for="password">Password</label>
-    </form>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+
+                <label for="confirm"> Confrim Password:</label>
+                <input type="password" id="confirm">
+
+                <input type="submit" value="Create Account">
+            </form>
+        </div>
+    </div>
 </body>
 </html>

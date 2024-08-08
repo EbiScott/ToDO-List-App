@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+</head>
+<body>
+    <section class="add__new">
+        <form action="/" method="post">
+            <textarea name="enter__text" id="enter__text" placeholder="Enter your new ToDo here">
+
+            </textarea>
+            <button type="button">Add ToDo</button>
+        </form>
+    </section>
+    <section class="view__old">
+        {{ for toDo in todos }}
+            <p> {{ todo }} </p>
+        {{ endfor }}
+    </section>
+</body>
+</html>
