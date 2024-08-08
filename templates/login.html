@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login to your Account</title>
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <div>
+    <div class="login__form">
         <h2>Login to your Account</h2>
-        <div>
-            <form action="login" method="get">
+        <div class="login__form__details">
+            <form action="/login" method="get">
                 <label for="username">Username</label>
-                <input type="text" name="username" id="password">
+                <input type="text" name="username" id="username" required>
 
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
 
-                <input type="submit" value="Login">
+                <input type="submit" value="Login" class="login__button">
             </form>
+            <p>Don't have an account? <a href="/templates/register.html">Create one.</a></p>
         </div>
     </div>
 </body>
