@@ -1,7 +1,10 @@
-from flask import flask, render_template, request, url_for
+import os
+from flask import Flask, render_template, request, url_for
+from dotenv import load_dotenv
 
-app = flask(__name__)
+app = Flask(__name__)
 
+load_dotenv()
 
 
 @app.route('/')

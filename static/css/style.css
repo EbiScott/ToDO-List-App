@@ -1,11 +1,11 @@
-.login__form{
+/* .login__form{
     display: flex;
     align-items: center;
     justify-items: center;
     height: 59%;
 }
 
-h1{
+h2{
     text-decoration: double;
 }
 
@@ -22,12 +22,12 @@ h1{
     background-color: rgb(107, 101, 161);
     border-radius: 7%;
     height: 300px;
-    padding-top: 50px;
+    padding: 50px;
 }
+ */
 
 
-
-/* body {
+body {
     font-family: Arial, sans-serif;
     background-color: #749cd2;
     display: flex;
@@ -38,7 +38,7 @@ h1{
 }
 
 .login__form {
-    background: #375a7b;
+    background: #4065b9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(201, 41, 41, 0.1);
@@ -73,13 +73,14 @@ button {
     border: none;
     border-radius: 4px;
     background-color: #5098e4;
-    color: #b12323;
+    color: #a71d1d;
     font-size: 16px;
     cursor: pointer;
+    width: 40px;
 }
 
 button:hover {
-    background-color: #1068c5c4;
+    background-color: #22558dfd;
 }
 
 p {
@@ -94,4 +95,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-} */
+} 
